@@ -1,7 +1,7 @@
 /*
- *Author: Rookie118
- *Title: Two Sum
- *Completion time: 2018-03-01
+ * Author: Rookie39
+ * Title: Two Sum
+ * Completion time: 2018-03-01
 */
 
 //The first version
@@ -42,8 +42,8 @@ public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> mp;  //存储nums值和对应的序号的键值对
         vector<int> result;
-        
-        for(int i = 0; i < nums.size(); ++i) 
+
+        for(int i = 0; i < nums.size(); ++i)
         {
             if(mp.find(target - nums[i]) != mp.end())  //找到另外一个加数，则存储两个加数的对应序号
             {

@@ -1,10 +1,18 @@
+/*
+ * Author: Rookie39
+ * Title: Letter Combinations of a Phone Number
+ * Completion time: 2018-08-10
+*/
 
+//The first version
+//Time complexity: O(n^2)
+//Space complexity: O(n)
 class Solution {
 public:
 	vector<string> letterCombinations(string digits) {
 		vector<string> res;
 
-		/** ´íÎóÇé¿ö¼ì²â */
+		/** é”™è¯¯æƒ…å†µæ£€æµ‹ */
 		if (digits.length() == 0)
 			return res;
 		for (size_t i = 0; i < digits.length(); i++)
@@ -16,7 +24,7 @@ public:
 		map<char, string> phone_map = { { '2',"abc" },{ '3',"def" },{ '4',"ghi" },{ '5',"jkl" },
 										{ '6',"mno" },{ '7',"pqrs" },{ '8',"tuv" },{ '9',"wxyz" } };
 
-		/** Çó³ö½á¹ûÊıÁ¿ */
+		/** æ±‚å‡ºç»“æœæ•°é‡ */
 		int result_size = 1;
 		for (size_t i = 0; i < digits.length(); i++)
 		{
@@ -24,34 +32,34 @@ public:
 		}
 		string *result = new string[result_size];
 
-		int length = phone_map[digits[0]].length();  //Êı×Ö¶ÔÓ¦×ÖÄ¸ÊıÁ¿
-		int interval_size = result_size / length;  //×ÖÄ¸¼ä¸ôÇø¼ä´óĞ¡
+		int length = phone_map[digits[0]].length();  //æ•°å­—å¯¹åº”å­—æ¯æ•°é‡
+		int interval_size = result_size / length;  //å­—æ¯é—´éš”åŒºé—´å¤§å°
 
-		/** Çó³öËùÓĞÊı×Ö¶ÔÓ¦µÄ×ÖÄ¸×éºÏ½á¹û */
+		/** æ±‚å‡ºæ‰€æœ‰æ•°å­—å¯¹åº”çš„å­—æ¯ç»„åˆç»“æœ */
 		for (size_t i = 0; i < digits.length(); i++)
 		{
-			int count = 0;  //Í³¼Æ×ÖÄ¸¸Ä±ä´ÎÊı
+			int count = 0;  //ç»Ÿè®¡å­—æ¯æ”¹å˜æ¬¡æ•°
 			for (size_t j = 0; j < result_size; j++)
 			{
-				if(i == 0)  //µÚÒ»¸öÊı×Ö¶ÔÓ¦µÄ×ÖÄ¸Ìî³äÇé¿ö
+				if(i == 0)  //ç¬¬ä¸€ä¸ªæ•°å­—å¯¹åº”çš„å­—æ¯å¡«å……æƒ…å†µ
 					result[j] += phone_map[digits[i]].at(j / interval_size);
-				else if (i < digits.length() - 1)  //ÖĞ¼äÊı×Ö¶ÔÓ¦µÄ×ÖÄ¸Ìî³äÇé¿ö
+				else if (i < digits.length() - 1)  //ä¸­é—´æ•°å­—å¯¹åº”çš„å­—æ¯å¡«å……æƒ…å†µ
 				{
 					if (j != 0 && j % interval_size == 0)
 						++count;
 					result[j] += phone_map[digits[i]].at(count % length);
 				}
-				else  //×îºóÒ»¸öÊı×Ö¶ÔÓ¦µÄ×ÖÄ¸Ìî³äÇé¿ö
+				else  //æœ€åä¸€ä¸ªæ•°å­—å¯¹åº”çš„å­—æ¯å¡«å……æƒ…å†µ
 					result[j] += phone_map[digits[i]].at(j % length);
 			}
 			if (i < digits.length() - 1)
 			{
-				length = phone_map[digits[i + 1]].length();  //»ñµÃÏÂÒ»¸öÊı×Ö¶ÔÓ¦µÄ×ÖÄ¸ÊıÁ¿
-				interval_size /= length;  //»ñµÃÏÂÒ»¸öÊı×Ö¶ÔÓ¦µÄ×ÖÄ¸¼ä¸ôÇø¼ä´óĞ¡
+				length = phone_map[digits[i + 1]].length();  //è·å¾—ä¸‹ä¸€ä¸ªæ•°å­—å¯¹åº”çš„å­—æ¯æ•°é‡
+				interval_size /= length;  //è·å¾—ä¸‹ä¸€ä¸ªæ•°å­—å¯¹åº”çš„å­—æ¯é—´éš”åŒºé—´å¤§å°
 			}
 		}
 
-        /** Êä³ö½á¹û */
+        /** è¾“å‡ºç»“æœ */
 		for (size_t i = 0; i < result_size; i++)
 		{
 			res.push_back(result[i]);
@@ -59,18 +67,3 @@ public:
 		return res;
 	}
 };
-
-int main()
-{
-	string digits = "6789";
-	vector<string> result;
-	Solution sol;
-	result = sol.letterCombinations(digits);
-	for (size_t i = 0; i < result.size(); i++)
-	{
-		cout << result[i] << ' ';
-	}
-	cout << endl;
-	system("pause");
-	return 0;
-}
