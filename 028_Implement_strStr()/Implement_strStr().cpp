@@ -1,8 +1,3 @@
-#include <iostream>
-#include <string>
-
-using namespace std;
-
 class Solution {
 public:
     int *getNext(string needle) {
@@ -58,14 +53,3 @@ public:
         }
 	}
 };
-
-int main()
-{
-    string haystack = "mississippi";
-    string needle = "issip";
-    Solution sol;
-    int location = sol.strStr(haystack, needle);
-
-    cout << location << endl;
-    return 0;
-}

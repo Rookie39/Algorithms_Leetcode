@@ -1,9 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <list>
-
-using namespace std;
-
 /**
 * Definition for singly-linked list.
 */
@@ -80,23 +74,3 @@ public:
 		return head;
 	}
 };
-
-int main()
-{
-	ListNode ls1(1);
-	ListNode ls2(2);
-	ls1.next = &ls2;
-	ListNode* ls = &ls1;
-
-	Solution sol;
-	sol.removeNthFromEnd(ls, 2);
-
-	while (ls->next)
-	{
-		cout << ls->val << endl;
-		ls = ls->next;
-	}
-
-	system("pause");
-	return 0;
-}
