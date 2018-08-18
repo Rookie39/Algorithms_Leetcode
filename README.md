@@ -1,8 +1,8 @@
 # Algorithms_Leetcode
-Unitl 2018-08-10, I have solved **14/760** problems.
+Unitl 2018-08-18, I have solved **17/760** problems.
 
 Accomplished Data:  
-**C++**: 14  
+**C++**: 17 
 **Python**: 0
 
 -------------------
@@ -21,6 +21,8 @@ Accomplished Data:
 | 014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/014_Longest_Common_Prefix/Longest_Common_Prefix.cpp) | Todo |
 | 015 | [3sum](https://leetcode.com/problems/3sum/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/015_3Sum/3Sum.cpp) | Todo |
 | 017 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/017_Letter_Combinations_of_a_Phone_Number/Letter_Combinations_of_a_Phone_Number.cpp) | Todo |
+| 019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/019_Remove_Nth_Node_From_End_of_List/Remove_Nth_Node_From_End_of_List.cpp) | Todo |
 | 020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/020_Valid_Parentheses/Valid_Parentheses.cpp) | Todo |
 | 021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/021_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.cpp) | Todo |
-| 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Easy | [Todo](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/026_Remove_Duplicates_from_Sorted_Array/Remove_Duplicates_from_Sorted_Array.cpp) | Todo |
+| 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/026_Remove_Duplicates_from_Sorted_Array/Remove_Duplicates_from_Sorted_Array.cpp) | Todo |
+| 028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/028_Implement_strStr()/Implement_strStr().cpp) | Todo |
