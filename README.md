@@ -7,7 +7,7 @@ Accomplished Data:
 
 -------------------
 # Solution Table
-| ID | Title | Difficulty | C++ | Pyhton |
+| ID | Title | Difficulty | C++ | Python |
 |----|-------|------------|-----|--------|
 | 001 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/001_Two_Sum/Two_Sum.cpp) | Todo |
 | 002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/002_Add_Two_Numbers/Add_Two_Numbers.cpp) | Todo |
