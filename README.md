@@ -1,8 +1,8 @@
 # Algorithms_Leetcode
-Unitl 2018-08-18, I have solved **17/760** problems.
+Unitl 2018-09-07, I have solved **20/760** problems.
 
 Accomplished Data:  
-**C++**: 17 
+**C++**: 20 
 **Python**: 0
 
 -------------------
@@ -24,5 +24,8 @@ Accomplished Data:
 | 019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/019_Remove_Nth_Node_From_End_of_List/Remove_Nth_Node_From_End_of_List.cpp) | Todo |
 | 020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/020_Valid_Parentheses/Valid_Parentheses.cpp) | Todo |
 | 021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/021_Merge_Two_Sorted_Lists/Merge_Two_Sorted_Lists.cpp) | Todo |
+| 022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/022_Generate_Parentheses/Generate_Parentheses.cpp) | Todo |
+| 023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | Hard | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/023_Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.cpp) | Todo |
 | 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/026_Remove_Duplicates_from_Sorted_Array/Remove_Duplicates_from_Sorted_Array.cpp) | Todo |
 | 028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/028_Implement_strStr()/Implement_strStr().cpp) | Todo |
+| 038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/038_Count_and_Say/Count_and_Say.cpp) | Todo |
