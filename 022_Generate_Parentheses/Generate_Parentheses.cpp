@@ -1,9 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <string>
-
-using namespace std;
-
 class Solution {
 public:
     string p = "()";
@@ -55,18 +49,3 @@ public:
         return result;
     }
 };
-
-int main()
-{
-    Solution sol;
-    vector<string> result;
-    int n = 5;
-
-    result = sol.generateParenthesis(n);
-    for(size_t i = 0; i < result.size(); ++i)
-    {
-        cout << result[i] << endl;
-    }
-
-    return 0;
-}

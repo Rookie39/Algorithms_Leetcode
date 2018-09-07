@@ -1,8 +1,3 @@
-#include <iostream>
-#include <vector>
-
-using namespace std;
-
 /**
  * Definition for singly-linked list. */
 struct ListNode {
@@ -55,35 +50,3 @@ public:
         return mergeTwoLists(l1, l2);
     }
 };
-
-int main()
-{
-    Solution sol;
-    vector<ListNode*> lists;
-    ListNode l1(1);
-    ListNode l2(4);
-    ListNode l3(5);
-    ListNode l4(1);
-    ListNode l5(3);
-    ListNode l6(4);
-    ListNode l7(2);
-    ListNode l8(6);
-    l1.next = &l2;
-    l2.next = &l3;
-    l4.next = &l5;
-    l5.next = &l6;
-    l7.next = &l8;
-    lists.push_back(&l1);
-    lists.push_back(&l4);
-    lists.push_back(&l7);
-    ListNode *result = sol.mergeKLists(lists);
-
-    while(result)
-    {
-        cout << result->val << ' ';
-        result = result->next;
-    }
-    cout << endl;
-
-    return 0;
-}

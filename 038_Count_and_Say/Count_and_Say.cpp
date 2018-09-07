@@ -1,9 +1,3 @@
-#include <iostream>
-#include <string>
-#include <cstring>
-
-using namespace std;
-
 class Solution {
 public:
     string countAndSay(int n) {
@@ -39,13 +33,3 @@ public:
         return temp;
     }
 };
-
-int main()
-{
-    Solution sol;
-    int n = 10;
-    string result = sol.countAndSay(n);
-
-    cout << result << endl;
-    return 0;
-}
