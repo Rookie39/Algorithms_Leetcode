@@ -1,8 +1,8 @@
 # Algorithms_Leetcode
-Unitl 2018-09-07, I have solved **20/760** problems.
+Unitl 2018-09-24, I have solved **27** problems.
 
 Accomplished Data:  
-**C++**: 20 
+**C++**: 27 
 **Python**: 0
 
 -------------------
@@ -28,4 +28,11 @@ Accomplished Data:
 | 023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | Hard | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/023_Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.cpp) | Todo |
 | 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/026_Remove_Duplicates_from_Sorted_Array/Remove_Duplicates_from_Sorted_Array.cpp) | Todo |
 | 028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/028_Implement_strStr()/Implement_strStr().cpp) | Todo |
-| 038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/038_Count_and_Say/Count_and_Say.cpp) | Todo |
+| 029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/029_Divide_Two_Integers/Divide_Two_Integers.cpp) | Todo |
+| 033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/033_Search_in_Rotated_Sorted_Array/Search_in_Rotated_Sorted_Array.cpp) | Todo |
+| 038 | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/038_Count_and_Say/Count_and_Say.cpp) | Todo |
+| 093 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/093_Restore_IP_Addresses/Restore_IP_Addresses.cpp) | Todo |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/200_Number_of_Islands/Number_of_Islands.cpp) | Todo |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/) | Easy | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/205_Isomorphic_Strings/Isomorphic_Strings.cpp) | Todo |
+| 393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/393_UTF-8_Validation/UTF-8_Validation.cpp) | Todo |
+| 754 | [Reach a Number](https://leetcode.com/problems/reach-a-number/description/) | Medium | [Completed](https://github.com/Rookie39/Algorithms_Leetcode/blob/master/754_Reach_a_Number/Reach_a_Number.cpp) | Todo |
