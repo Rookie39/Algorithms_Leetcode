@@ -1,23 +1,8 @@
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <map>
-#include <set>
-#include <algorithm>
-#include <sstream>
-#include <cstdio>
-#include <cstring>
-#include <cmath>
-#include <cstdlib>
-#include <ctime>
-#include <queue>
-#include <stack>
-#include <bitset>
-
-#define MININT -2147483648
-#define MAXINT 2147483647
-
-using namespace std;
+/**
+  * Author: Rookie118
+  * Title: Search_in_Rotated_Sorted_Array
+  * Completion time: 2018-09-22
+ */
 
 class Solution {
 public:
@@ -83,13 +68,3 @@ public:
         return result;
     }
 };
-
-int main()
-{
-    Solution sol;
-    vector<int> nums = {7,9,1,4,6};
-    int res = sol.search(nums, 8);
-
-    cout << res << endl;
-    return 0;
-}

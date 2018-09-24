@@ -1,3 +1,9 @@
+/**
+  * Author: Rookie118
+  * Title: Count_and_Say
+  * Completion time: 2018-09-07
+ */
+
 class Solution {
 public:
     string countAndSay(int n) {

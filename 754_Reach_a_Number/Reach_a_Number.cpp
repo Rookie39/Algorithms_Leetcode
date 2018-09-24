@@ -1,25 +1,8 @@
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <map>
-#include <set>
-#include <algorithm>
-#include <sstream>
-#include <cstdio>
-#include <cstring>
-#include <cmath>
-#include <cstdlib>
-#include <ctime>
-#include <queue>
-#include <stack>
-#include <bitset>
-#include <unordered_map>
-#include <unordered_set>
-
-#define MININT -2147483648
-#define MAXINT 2147483647
-
-using namespace std;
+/**
+  * Author: Rookie118
+  * Title: Reach_a_Number
+  * Completion time: 2018-09-24
+ */
 
 class Solution {
 public:
@@ -44,11 +27,3 @@ public:
         return step_cn;
     }
 };
-
-int main()
-{
-    Solution sol;
-
-    cout << sol.reachNumber(7) << endl;
-    return 0;
-}

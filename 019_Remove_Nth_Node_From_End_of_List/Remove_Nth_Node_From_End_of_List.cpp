@@ -1,4 +1,10 @@
 /**
+  * Author: Rookie118
+  * Title: Remove_Nth_Node_From_End_of_List
+  * Completion time: 2018-09-07
+ */
+
+/**
 * Definition for singly-linked list.
 */
 struct ListNode {

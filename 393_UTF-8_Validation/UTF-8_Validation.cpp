@@ -1,23 +1,8 @@
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <map>
-#include <set>
-#include <algorithm>
-#include <sstream>
-#include <cstdio>
-#include <cstring>
-#include <cmath>
-#include <cstdlib>
-#include <ctime>
-#include <queue>
-#include <stack>
-#include <bitset>
-
-#define MININT -2147483648
-#define MAXINT 2147483647
-
-using namespace std;
+/**
+  * Author: Rookie118
+  * Title: UTF-8_Validation
+  * Completion time: 2018-09-24
+ */
 
 class Solution {
 public:
@@ -81,21 +66,3 @@ public:
         return false;
     }
 };
-
-int main()
-{
-    //vector<int> data = {39, 89, 227, 83, 132, 95, 10, 0};
-    //vector<int> data = {230,136,145,229,143,171,231,137,155,228,184,156,230,179,189,0,10};
-    vector<int> data = {230,136,145};
-//    vector<int> data;
-//    data.push_back(39);
-//    data.push_back(89);
-//    data.push_back(227);
-//    data.push_back(235);
-
-    Solution sol;
-    bool result = sol.validUtf8(data);
-
-    cout << result << endl;
-    return 0;
-}

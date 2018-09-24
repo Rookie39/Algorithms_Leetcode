@@ -1,8 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <string>
-
-using namespace std;
+/**
+  * Author: Rookie118
+  * Title: Number_of_Islands
+  * Completion time: 2018-09-09
+ */
 
 class Solution {
 public:
@@ -45,21 +45,3 @@ public:
         return cn_island;
     }
 };
-
-int main()
-{
-    vector<vector<char>> grid;
-    vector<char> temp = {'1','1','0','0','0'};
-    grid.push_back(temp);
-    temp = {'1','1','0','0','0'};
-    grid.push_back(temp);
-    temp = {'0','0','1','0','0'};
-    grid.push_back(temp);
-    temp = {'0','0','0','1','1'};
-    grid.push_back(temp);
-    Solution sol;
-    int cn = sol.numIslands(grid);
-
-    cout << cn << endl;
-    return 0;
-}

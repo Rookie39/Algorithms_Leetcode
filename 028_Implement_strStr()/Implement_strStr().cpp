@@ -1,3 +1,9 @@
+/**
+  * Author: Rookie118
+  * Title: Implement_strStr()
+  * Completion time: 2018-09-07
+ */
+
 class Solution {
 public:
     int *getNext(string needle) {

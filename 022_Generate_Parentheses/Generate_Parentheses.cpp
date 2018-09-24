@@ -1,3 +1,9 @@
+/**
+  * Author: Rookie118
+  * Title: Generate_Parentheses
+  * Completion time: 2018-09-07
+ */
+
 class Solution {
 public:
     string p = "()";

@@ -1,3 +1,9 @@
+/**
+  * Author: Rookie118
+  * Title: Remove_Duplicates_from_Sorted_Array
+  * Completion time: 2018-09-07
+ */
+
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {

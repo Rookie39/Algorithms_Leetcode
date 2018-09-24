@@ -1,25 +1,8 @@
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <map>
-#include <set>
-#include <algorithm>
-#include <sstream>
-#include <cstdio>
-#include <cstring>
-#include <cmath>
-#include <cstdlib>
-#include <ctime>
-#include <queue>
-#include <stack>
-#include <bitset>
-#include <unordered_map>
-#include <unordered_set>
-
-#define MININT -2147483648
-#define MAXINT 2147483647
-
-using namespace std;
+/**
+  * Author: Rookie118
+  * Title: Isomorphic_Strings
+  * Completion time: 2018-09-24
+ */
 
 class Solution {
 public:
@@ -46,13 +29,3 @@ public:
             return false;
     }
 };
-
-int main()
-{
-    Solution sol;
-    string s = "aba";
-    string t = "baa";
-
-    cout << sol.isIsomorphic(s, t) << endl;
-    return 0;
-}

@@ -1,19 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <map>
-#include <set>
-#include <algorithm>
-#include <sstream>
-#include <cstdio>
-#include <cstring>
-#include <cmath>
-#include <cstdlib>
-#include <ctime>
-#include <queue>
-#include <stack>
-#include <bitset>
-
-using namespace std;
+/**
+  * Author: Rookie118
+  * Title: Restore_IP_Addresses
+  * Completion time: 2018-09-15
+ */
 
 class Solution {
 public:
@@ -67,17 +56,3 @@ public:
         return result;
     }
 };
-
-int main()
-{
-    string s = "172162541";
-    Solution sol;
-    vector<string> result = sol.restoreIpAddresses(s);
-
-    for(size_t i = 0; i < result.size(); ++i)
-    {
-        cout << result[i] << endl;
-    }
-
-    return 0;
-}

@@ -1,23 +1,8 @@
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <map>
-#include <set>
-#include <algorithm>
-#include <sstream>
-#include <cstdio>
-#include <cstring>
-#include <cmath>
-#include <cstdlib>
-#include <ctime>
-#include <queue>
-#include <stack>
-#include <bitset>
-
-#define MININT -2147483648
-#define MAXINT 2147483647
-
-using namespace std;
+/**
+  * Author: Rookie118
+  * Title: Divide_Two_Integers
+  * Completion time: 2018-09-22
+ */
 
 class Solution {
 public:
@@ -50,12 +35,3 @@ public:
         return is_positive ? result : -result;
     }
 };
-
-int main()
-{
-    Solution sol;
-    int result = sol.divide(1, -1);
-
-    cout << result << endl;
-    return 0;
-}

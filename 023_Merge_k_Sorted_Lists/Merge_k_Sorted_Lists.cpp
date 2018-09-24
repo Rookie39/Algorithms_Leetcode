@@ -1,5 +1,10 @@
 /**
- * Definition for singly-linked list. */
+  * Author: Rookie118
+  * Title: Merge_k_Sorted_Lists
+  * Completion time: 2018-09-07
+ */
+
+/* Definition for singly-linked list. */
 struct ListNode {
     int val;
     ListNode *next;
